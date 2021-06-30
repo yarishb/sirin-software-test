@@ -1,0 +1,37 @@
+
+.statisticsBox {
+  display: flex;
+  flex-direction: row;
+  &__statistics {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 1rem;
+  }
+}
+
+.owner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+  margin-top: 0.5rem;
+
+  &>* {
+    margin-left: 2rem;
+  }
+
+  &__name {
+    font-size: 30px;
+  }
+
+  &__url {
+    font-size: 20px;
+  }
+
+  &__img {
+    width: 5rem;
+    margin-left: 2rem;
+  }
+}
+

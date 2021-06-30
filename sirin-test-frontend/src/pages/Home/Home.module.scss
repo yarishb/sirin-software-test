@@ -1,0 +1,15 @@
+.home {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.repositories {
+  @extend .home;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  &>*{
+    margin-top: 2rem;
+  }
+}
