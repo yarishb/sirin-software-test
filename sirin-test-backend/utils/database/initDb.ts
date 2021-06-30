@@ -30,6 +30,5 @@ export class InitDb {
                 '    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE' +
                 ');'
         )
-        console.log('hey')
     }
 }
